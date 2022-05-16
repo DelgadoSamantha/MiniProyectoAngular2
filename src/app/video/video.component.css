@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Goldman&family=Indie+Flower&family=Press+Start+2P&display=swap');
+.jumbotron{
+    margin-top: -30px;
+    background:linear-gradient(red,blue);
+     background-size: 100vh 100vw;
+     background-attachment: fixed;
+}
+.display-4{
+    margin-top: -30px;
+    font-family: 'Goldman', cursive;
+    font-family: 'Indie Flower', cursive;
+    font-family: 'Press Start 2P', cursive;
+    color: rgb(3, 210, 224);
+    font-size: 20px;
+    
+}
+.video{
+    text-align: center;
+    margin-top: 10px;
+}
+
+p{
+    color:white
+}
+ 

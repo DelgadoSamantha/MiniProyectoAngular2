@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Inline+One&display=swap');
+
+.carousel{
+    margin-top: -30px;
+}
+.carousel-inner img {
+width:100%;
+max-height: 460px;
+}
+
+.carousel-inner{
+    height: 500px;
+}
+#ex1{
+    background-image: url(https://us.123rf.com/450wm/imogi/imogi1810/imogi181000026/128440171-comic-dynamic-pink-background-with-radial-lightnings-rays-and-light-halftone-effects-vector-illustra.jpg?ver=6);
+   
+    background-attachment: fixed;
+}
+#ex2{
+    background-image: url(https://static.vecteezy.com/system/resources/previews/000/243/871/non_2x/abstract-pop-art-comic-background-vector.jpg);
+   
+    background-attachment: fixed;
+}
+#ex3{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTu5HaVh2oqk1Lyh1wbvNTg-o_NV8qqEvyUqA&usqp=CAU);
+   
+    background-attachment: fixed;
+}
+.modal-header{
+    background-color: black;
+}
+.he{
+    font-family: 'Rubik Bubbles', cursive;
+    -webkit-text-stroke: 1px rgb(0, 0, 0);
+    color: rgb(216, 97, 0);
+    font-size: 40px;
+    text-align: center;
+}
+
+.btn{
+    margin: 0px 70px;/* dar espacio entre botones */
+    font-family:monospace;
+    color: white;
+    
+}
+#nom{
+    font-family: 'Creepster', cursive;
+    -webkit-text-stroke: 1px rgba(238, 48, 190, 0.973);
+    color: rgb(248, 248, 248);
+    font-size: 30px;
+}
+#lis, .mt-0{
+    font-family: 'Reenie Beanie', cursive;
+    color: white;
+
+}
+#lis{
+    font-size: 30px;
+}
+.he2{
+    
+    font-family: 'Rubik Bubbles', cursive;
+    -webkit-text-stroke: 1px rgb(0, 0, 0);
+    color: rgb(0, 235, 117);
+    font-size: 40px;
+    text-align: center;
+}
+.he3{
+    
+    font-family: 'Rubik Bubbles', cursive;
+    -webkit-text-stroke: 1px rgb(0, 0, 0);
+    color: rgba(16, 199, 231, 0.959);
+    font-size: 40px;
+    text-align: center;
+}
+#b1{
+    font-family: 'Alumni Sans Inline One', cursive;
+
+}
+#carac{
+    font-family: 'Tangerine', cursive;
+}
+.list-group-item{
+    background: rgb(95, 216, 145);
+}

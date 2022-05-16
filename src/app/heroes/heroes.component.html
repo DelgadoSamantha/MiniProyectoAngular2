@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+</head>
+<body>
+  <h1 class="text-center">Heroes <small>Marvel y DC</small></h1>
+    <div class="card-columns">
+            <div class="card text-center" *ngFor="let h of misHeroes, let i=index">
+              <h5 class="card-header  bg-warning text-center">{{h.nombre}}</h5>
+                <img src={{h.img}} class="card-img-top " alt="...">
+          <div class="card-body">
+            <p class="card-text text-center">{{h.bio}}</p>
+            <p class="card-text text-center">{{h.aparicion}}</p>
+            <a [routerLink]="['/heroe',i]" class=" btn bg-warning">Ver Mas</a>
+          </div>
+        </div>
+      </div>
+   
+</body>
+</html>

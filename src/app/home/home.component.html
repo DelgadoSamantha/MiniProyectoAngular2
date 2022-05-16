@@ -1,0 +1,53 @@
+<div class="jumbotron">
+  <h1 class="display-4">MARVEL vs DC ¿qué universo es mejor?</h1>
+  <p class="lead">DC vs Marvel ¿Qué universo es más fuerte y gana el duelo? ¿Qué editorial contiene los héroes más poderosos: Marvel con Spiderman, Los Vengadores y los X-Men, o DC con Batman, Superman y la Liga de la Justicia?.</p>
+  <hr class="my-4">
+  <p class="contenido">En 1996 se creó la miniserie DC vs Marvel (Marvel vs DC) que intentó contestar esta pregunta y pudimos ver a los superhéroes más famosos del cómic americano enfrentándose entre ellos para decidirlo. Este macroevento se enfrentaron a diez combates a los pesos pesados de las editoriales en aquella década. Poco después ocurrió otro crossover de dimensiones parecidas, JLA/Avengers. Ahora, con todas las películas de DC y Marvel en el cine, como Justice League, Vengadores: Endgame, Iron Man, The Batman, Batman vs Superman, Black Panther, Wonder Woman 1984, etc., muchos se preguntan quiénes son más fuertes, los personajes de una u otra editorial.</p>
+ 
+ 
+ 
+  <div class="botones">
+    <input class="btn" type="button" value="Leer Mas" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo"/> 
+    </div>
+    <img class="img" src="../../assets/img/home.png" alt="">
+    <img class="img2" src="../../assets/img/pelea2.png" alt="">
+<!--Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal-dialog">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h5 class="modal-title text-center" id="exampleModalLabel"> Registro Usuarios</h5>
+      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+      </button>
+    </div>
+    <div class="modal-body">
+      <form>
+        <div class="form-group">
+          <label for="recipient-name" class="col-form-label">Nombre:</label>
+          <input type="text" class="form-control"  [(ngModel)]="usua.nombre" [ngModelOptions]="{standalone: true}" id="recipient-name">
+        </div>
+        <div class="form-group">
+          <label for="recipient-name" class="col-form-label">Sexo:</label>
+          <input type="text" class="form-control" [(ngModel)]="usua.sexo" [ngModelOptions]="{standalone: true}" id="recipient-name">
+        </div>-->
+        <div class="form-group">
+          <label for="recipient-name" class="col-form-label">Correo Electronico:</label>
+          <input type="text" class="form-control" [(ngModel)]="usua.correo" [ngModelOptions]="{standalone: true}" id="recipient-name">
+        </div>
+        <div class="form-group">
+          <label for="recipient-name" class="col-form-label">Fecha de nacimiento:</label>
+          <input type="date" class="form-control" [(ngModel)]="usua.fecha" [ngModelOptions]="{standalone: true}" id="recipient-name">
+        </div>
+       
+      </form>
+    
+    </div>
+    <div class="modal-footer">
+      <button type="button" class="btn2" data-dismiss="modal">Cancelar</button>
+      <button type="button" (click)="this.nuevoUsuario()" class="btn2">Agregar Usuario</button>
+    </div>
+  </div>
+</div>
+</div>
+</div>

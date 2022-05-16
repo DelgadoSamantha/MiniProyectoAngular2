@@ -1,0 +1,8 @@
+/* You can add global styles to this file, and also import other style files */
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+body{
+    background-image: url(https://img.freepik.com/vector-gratis/fondo-comic-colorido-marco_52683-71992.jpg?w=2000);
+    background-size: 100vw 100vh;
+    background-attachment: fixed;
+}

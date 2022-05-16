@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+.jumbotron{
+    background-image: url(../../assets/img/jb.PNG);
+    display:block;
+    margin: auto;
+   
+}
+h1{
+    font-family: 'Lobster', cursive;
+    -webkit-text-stroke: 2px rgb(0, 0, 0);
+    color: rgb(238, 97, 3);
+}
+img{
+    display:block;
+    margin: auto;
+}
